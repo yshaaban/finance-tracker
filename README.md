@@ -95,7 +95,7 @@ A full-stack finance tracking application built with TypeScript, React, Node.js,
 
 4. Access the application:
    - Frontend: http://localhost:3000
-   - Backend API: http://localhost:5000
+   - Backend API: http://localhost:4000
 
 ### Docker Setup
 
@@ -107,7 +107,7 @@ A full-stack finance tracking application built with TypeScript, React, Node.js,
 
 2. Access the application:
    - Frontend: http://localhost
-   - Backend API: http://localhost:5000
+   - Backend API: http://localhost:4000
 
 ## Environment Variables
 
@@ -116,13 +116,13 @@ A full-stack finance tracking application built with TypeScript, React, Node.js,
 ```
 MONGO_URI=mongodb://localhost:27017/finance_tracker
 JWT_SECRET=your_jwt_secret_key_here
-PORT=5000
+PORT=4000
 ```
 
 ### Frontend (.env)
 
 ```
-VITE_API_URL=http://localhost:5000
+VITE_API_URL=http://localhost:4000
 ```
 
 ## API Endpoints
